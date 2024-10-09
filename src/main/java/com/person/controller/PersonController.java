@@ -38,7 +38,7 @@ public class PersonController {
 		Object data = personService.savePersonDetails(person);
 		if(ObjectUtils.isEmpty(data))
 		{
-			log.debug("Error occurred while saving person details");
+			log.debug("Error occurred while saving person detail");
 			return ResponseEntity.ok().body(new Response<>(false, ErrorConstants.PERSON_SAVED_ERROR));
 		}	
 		else if(data.equals(ErrorConstants.EMAIL_ALREADY_EXISTS))
