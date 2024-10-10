@@ -108,8 +108,8 @@
 		        <version>2.13.0</version>
 		        <configuration>
 		            <schemaVersion>v2</schemaVersion>
-		            <resourceGroup>Person-1728539082404-rg</resourceGroup>
-		            <appName>Person-1728539082404</appName>
+		            <resourceGroup>vm2016_group</resourceGroup>
+		            <appName>personredis</appName>
 		            <pricingTier>P1v2</pricingTier>
 		            <region>centralus</region>
 		            <runtime>
