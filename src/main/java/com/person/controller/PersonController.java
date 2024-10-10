@@ -111,4 +111,9 @@ public class PersonController {
 		log.debug("Person details updated successfully");
 		return ResponseEntity.ok().body(new Response<>(true, Constants.PERSON_DETAILS_UPDATED, data));
 	}
+
+	@GetMapping("/message")
+	public String getMessage() {
+		return "Welcome Message!!";
+	}
 }
